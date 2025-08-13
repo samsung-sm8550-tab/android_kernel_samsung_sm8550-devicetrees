@@ -10327,7 +10327,7 @@
 
 			pogo_touchpad {
 				compatible = "stm,touchpad";
-				touchpad,invert = <0x00 0x01 0x01>;
+				touchpad,invert = <0x00 0x00 0x00>;
 				touchpad,support_keyboard_model = <0xfd 0x02 0xd1 0x03 0x51>;
 				touchpad,max = <0x578 0x324>;
 			};
