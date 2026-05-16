@@ -8537,38 +8537,6 @@
 							qcom,mdss-dsc-block-prediction-enable;
 						};
 
-						wqxga60hs {
-							qcom,display-topology = <0x02 0x02 0x01>;
-							qcom,default-topology-index = <0x00>;
-							qcom,mdss-dsi-panel-width = <0xa00>;
-							qcom,mdss-dsi-panel-height = <0x640>;
-							qcom,mdss-dsi-h-pulse-width = <0x200>;
-							qcom,mdss-dsi-h-back-porch = <0xcb>;
-							qcom,mdss-dsi-h-front-porch = <0x80>;
-							qcom,mdss-dsi-h-sync-skew = <0x00>;
-							qcom,mdss-dsi-v-pulse-width = <0x200>;
-							qcom,mdss-dsi-v-back-porch = <0x101>;
-							qcom,mdss-dsi-v-front-porch = <0x7f>;
-							qcom,mdss-dsi-panel-framerate = <0x3c>;
-							samsung,mdss-dsi-sot-hs-mode;
-							qcom,mdss-mdp-transfer-time-us = <0x3dfa>;
-							qcom,mdss-dsi-panel-clockrate = <0x5ad66500>;
-							qcom,mdss-dsi-panel-phy-timings = [00 35 0d 0d 1f 27 0d 0d 0c 02 04 00 2a 12];
-							qcom,mdss-dsi-t-clk-pre = <0x2a>;
-							qcom,mdss-dsi-t-clk-post = <0x12>;
-							qcom,mdss-dsi-on-command-state = "dsi_hs_mode";
-							qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
-							qcom,compression-mode = "dsc";
-							qcom,lm-split = <0x500 0x500>;
-							qcom,mdss-dsc-encoders = <0x02>;
-							qcom,mdss-dsc-slice-height = <0x64>;
-							qcom,mdss-dsc-slice-width = <0x500>;
-							qcom,mdss-dsc-slice-per-pkt = <0x01>;
-							qcom,mdss-dsc-bit-per-component = <0x08>;
-							qcom,mdss-dsc-bit-per-pixel = <0x08>;
-							qcom,mdss-dsc-block-prediction-enable;
-						};
-
 						wqxga60phs {
 							qcom,display-topology = <0x02 0x02 0x01>;
 							qcom,default-topology-index = <0x00>;
@@ -8585,38 +8553,6 @@
 							samsung,mdss-dsi-sot-hs-mode;
 							samsung,mdss-dsi-phs-mode;
 							qcom,mdss-mdp-transfer-time-us = <0x1d6d>;
-							qcom,mdss-dsi-panel-clockrate = <0x5ad66500>;
-							qcom,mdss-dsi-panel-phy-timings = [00 35 0d 0d 1f 27 0d 0d 0c 02 04 00 2a 12];
-							qcom,mdss-dsi-t-clk-pre = <0x2a>;
-							qcom,mdss-dsi-t-clk-post = <0x12>;
-							qcom,mdss-dsi-on-command-state = "dsi_hs_mode";
-							qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
-							qcom,compression-mode = "dsc";
-							qcom,lm-split = <0x500 0x500>;
-							qcom,mdss-dsc-encoders = <0x02>;
-							qcom,mdss-dsc-slice-height = <0x64>;
-							qcom,mdss-dsc-slice-width = <0x500>;
-							qcom,mdss-dsc-slice-per-pkt = <0x01>;
-							qcom,mdss-dsc-bit-per-component = <0x08>;
-							qcom,mdss-dsc-bit-per-pixel = <0x08>;
-							qcom,mdss-dsc-block-prediction-enable;
-						};
-
-						wqxga30hs {
-							qcom,display-topology = <0x02 0x02 0x01>;
-							qcom,default-topology-index = <0x00>;
-							qcom,mdss-dsi-panel-width = <0xa00>;
-							qcom,mdss-dsi-panel-height = <0x640>;
-							qcom,mdss-dsi-h-pulse-width = <0x2df>;
-							qcom,mdss-dsi-h-back-porch = <0x200>;
-							qcom,mdss-dsi-h-front-porch = <0x258>;
-							qcom,mdss-dsi-h-sync-skew = <0x00>;
-							qcom,mdss-dsi-v-pulse-width = <0x200>;
-							qcom,mdss-dsi-v-back-porch = <0x200>;
-							qcom,mdss-dsi-v-front-porch = <0x200>;
-							qcom,mdss-dsi-panel-framerate = <0x1e>;
-							samsung,mdss-dsi-sot-hs-mode;
-							qcom,mdss-mdp-transfer-time-us = <0x3dfa>;
 							qcom,mdss-dsi-panel-clockrate = <0x5ad66500>;
 							qcom,mdss-dsi-panel-phy-timings = [00 35 0d 0d 1f 27 0d 0d 0c 02 04 00 2a 12];
 							qcom,mdss-dsi-t-clk-pre = <0x2a>;
